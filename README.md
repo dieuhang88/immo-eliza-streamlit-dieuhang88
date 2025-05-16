@@ -1,19 +1,21 @@
-# 🎈 Blank app template
+🏡 Immo Eliza Housing Price Prediction App
 
-A simple Streamlit app template for you to modify!
+This Streamlit web app predicts property prices in Belgium using machine learning models trained on the Immo Eliza dataset.
+🚀 Features
+Predicts house/apartment prices based on features like:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Number of bedrooms, bathrooms
 
-### How to run it on your own machine
+Living and land surface
 
-1. Install the requirements
+Property type, building condition, EPC label
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+Location (postcode, province, etc.)
 
-2. Run the app
+Interactive form for inputting property features
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Model built using scikit-learn, XGBoost, and joblib
+
+Here is the link of app:
+
+https://immo-eliza-app-dieuhang88-nkcryphjrsc3zaknviarmj.streamlit.app/
