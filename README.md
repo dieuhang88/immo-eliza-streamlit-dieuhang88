@@ -1,18 +1,19 @@
 🏡 Immo Eliza Housing Price Prediction App
 
 This Streamlit web app predicts property prices in Belgium using machine learning models trained on the Immo Eliza dataset.
+
 🚀 Features
 Predicts house/apartment prices based on features like:
 
-Number of bedrooms, bathrooms
+   - Number of bedrooms, bathrooms
 
-Living and land surface
+   - Living and land surface
 
-Property type, building condition, EPC label
+   - Property type, building condition, EPC label
 
-Location (postcode, province, etc.)
+   - Location (postcode, province, etc.)
 
-Interactive form for inputting property features
+   - Interactive form for inputting property features
 
 Model built using scikit-learn, XGBoost, and joblib
 
